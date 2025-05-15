@@ -1,6 +1,0 @@
-if SHIELD_HSKBDBT50_right
-
-config ZMK_KEYBOARD_NAME
-    default "HSKBDBT50_right"
-
-endif
