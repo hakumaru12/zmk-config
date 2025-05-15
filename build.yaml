@@ -20,6 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: HSKBDBT50_left
+    shield: HSKBDBT50_L
   - board: nice_nano_v2
-    shield: HSKBDBT50_right
+    shield: HSKBDBT50_R
