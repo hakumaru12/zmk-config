@@ -1,2 +1,5 @@
-config SHIELD_HSKBDBT50_left
-    def_bool $(shields_list_contains, HSKBDBT50_left)
+config SHIELD_HSKBDBT50_L
+    def_bool $(shields_list_contains, HSKBDBT50_L)
+
+config SHIELD_HSKBDBT50_R
+    def_bool $(shields_list_contains, HSKBDBT50_R)
