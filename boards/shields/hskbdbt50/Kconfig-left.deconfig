@@ -1,6 +1,6 @@
-if SHIELD_KBDBT50_left
+if SHIELD_HSKBDBT50_left
 
 config ZMK_KEYBOARD_NAME
-    default "KBDBT50_left"
+    default "HSKBDBT50_left"
 
 endif
