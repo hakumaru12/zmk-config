@@ -1,2 +1,0 @@
-config SHIELD_HSKBDBT50_right
-    def_bool $(shields_list_contains, HSKBDBT50_right)
