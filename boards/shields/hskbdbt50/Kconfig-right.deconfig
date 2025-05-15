@@ -1,0 +1,6 @@
+if SHIELD_KBDBT50_right
+
+config ZMK_KEYBOARD_NAME
+    default "KBDBT50_right"
+
+endif
