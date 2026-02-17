@@ -33,10 +33,10 @@
             // |LCTL|LGUI|LALT| SPC| TAB|   | ENT| BSP|RALT| MO1| ESC|
 
             bindings = <
-&kp Q      &kp L     &kp U      &kp COMMA  &kp PERIOD     &kp F    &kp W      &kp R      &kp Y     &kp P
-&kp E      &kp I     &kp A      &kp O      &kp MINUS      &kp K    &kp T      &kp K      &kp S     &kp H
-&kp Z      &kp X     &kp C      &kp V      &kp SEMICOLON  &kp G    &kp D      &kp M      &kp J     &kp B
-&kp LCTRL  &kp LGUI  &kp LANG1  &kp LSHFT  &kp BSPC       &kp RET  &kp SPACE  &kp LANG1  &kp RALT  &to 1
+&kp Q      &kp L     &kp U    &kp COMMA  &kp PERIOD     &kp F    &kp W      &kp R     &kp Y     &kp P
+&kp E      &kp I     &kp A    &kp O      &kp MINUS      &kp K    &kp T      &kp K     &kp S     &kp H
+&kp Z      &kp X     &kp C    &kp V      &kp SEMICOLON  &kp G    &kp D      &kp M     &kp J     &kp B
+&kp LCTRL  &kp LGUI  &kp TAB  &kp LSHFT  &kp DEL        &kp RET  &kp SPACE  &kp BSPC  &kp RALT  &to 1
             >;
         };
 
