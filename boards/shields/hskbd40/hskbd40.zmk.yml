@@ -1,0 +1,14 @@
+file_format: "1"
+id: hskbd40
+name: HSKBD40
+type: shield
+url: ""
+requires:
+  - pro_micro
+exposes:
+  - zmk,kscan
+features:
+  - keys
+siblings:
+  - hskbd40_left
+  - hskbd40_right

@@ -1,0 +1,6 @@
+if SHIELD_HSKBD40_LEFT || SHIELD_HSKBD40_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "HSKBD40"
+
+endif
