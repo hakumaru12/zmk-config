@@ -12,13 +12,18 @@
         compatible = "zmk,combos";
 
         Japanese {
-            bindings = <&kp LANG_HIRAGANA>;
+            bindings = <&kp LANG1>;
             key-positions = <13 12>;
         };
 
         English {
             bindings = <&kp LANGUAGE_2>;
             key-positions = <16 17>;
+        };
+
+        Esc {
+            bindings = <&kp ESC>;
+            key-positions = <33 35>;
         };
     };
 
@@ -45,7 +50,7 @@
 &kp N1        &kp N2        &kp N3        &kp N4        &kp N5      &kp N6     &kp N7     &kp N8    &kp N9     &kp N0
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR  &kp BSLH   &kp CARET  &kp UP    &kp BSLH   &kp LBKT
 &kp POUND     &kp POUND     &trans        &trans        &trans      &kp COLON  &kp LEFT   &kp DOWN  &kp RIGHT  &kp RBKT
-&kp LCTRL     &kp LALT      &trans        &trans        &kp DEL     &kp ESC    &trans     &trans    &to 2      &to 0
+&kp LCTRL     &kp LALT      &trans        &trans        &trans      &kp ESC    &trans     &trans    &to 2      &to 0
             >;
         };
 
