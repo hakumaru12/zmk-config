@@ -8,6 +8,20 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        Japanese {
+            bindings = <&kp LANG_HIRAGANA>;
+            key-positions = <16 17>;
+        };
+
+        English {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <13 12>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -19,10 +33,10 @@
             // |LCTL|LGUI|LALT| SPC| TAB|   | ENT| BSP|RALT| MO1| ESC|
 
             bindings = <
-&kp Q      &kp L     &kp U      &kp COMMA  &kp PERIOD     &kp F    &kp W      &kp R      &kp Y  &kp P
-&kp E      &kp I     &kp A      &kp O      &kp MINUS      &kp K    &kp T      &kp K      &kp S  &kp H
-&kp Z      &kp X     &kp C      &kp V      &kp SEMICOLON  &kp G    &kp D      &kp M      &kp J  &kp B
-&kp LCTRL  &kp LGUI  &kp LANG1  &kp LSHFT  &kp BSPC       &kp RET  &kp SPACE  &kp LANG2  &mo 1  &tog 1
+&kp Q      &kp L     &kp U      &kp COMMA  &kp PERIOD     &kp F    &kp W      &kp R      &kp Y     &kp P
+&kp E      &kp I     &kp A      &kp O      &kp MINUS      &kp K    &kp T      &kp K      &kp S     &kp H
+&kp Z      &kp X     &kp C      &kp V      &kp SEMICOLON  &kp G    &kp D      &kp M      &kp J     &kp B
+&kp LCTRL  &kp LGUI  &kp LANG1  &kp LSHFT  &kp BSPC       &kp RET  &kp SPACE  &kp LANG1  &kp LALT  &tog 1
             >;
         };
 
