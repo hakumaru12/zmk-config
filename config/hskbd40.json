@@ -41,14 +41,14 @@
         { "label":    "/", "x": 9.5, "y": 2.5, "row": 2, "col": 9 },
 
         { "label": "LCTL", "x":   0, "y": 3.5, "row": 3, "col": 0 },
-        { "label": "LGUI", "x":   1, "y": 3.25, "row": 3, "col": 1 },
-        { "label": "LALT", "x":   2, "y": 3, "row": 3, "col": 2 },
+        { "label": "LGUI", "x":   1, "y": 3.5, "row": 3, "col": 1 },
+        { "label": "LALT", "x":   2, "y": 3.25, "row": 3, "col": 2 },
         { "label":  "SPC", "x":   3, "y": 3.25, "row": 3, "col": 3 },
         { "label":  "TAB", "x":   4, "y": 3.5, "row": 3, "col": 4 },
         { "label":  "ENT", "x": 5.5, "y": 3.5, "row": 3, "col": 5 },
         { "label":  "BSP", "x": 6.5, "y": 3.25, "row": 3, "col": 6 },
-        { "label": "RALT", "x": 7.5, "y": 3, "row": 3, "col": 7 },
-        { "label":  "MO1", "x": 8.5, "y": 3.25, "row": 3, "col": 8 },
+        { "label": "RALT", "x": 7.5, "y": 3.25, "row": 3, "col": 7 },
+        { "label":  "MO1", "x": 8.5, "y": 3.5, "row": 3, "col": 8 },
         { "label":  "ESC", "x": 9.5, "y": 3.5, "row": 3, "col": 9 }
       ]
     }
