@@ -7,16 +7,16 @@
   "layouts": {
     "LAYOUT": {
       "layout": [
-        { "label":    "Q", "x":   0, "y": 0, "row": 0, "col": 0 },
-        { "label":    "W", "x":   1, "y": 0, "row": 0, "col": 1 },
+        { "label":    "Q", "x":   0, "y": 0.5, "row": 0, "col": 0 },
+        { "label":    "W", "x":   1, "y": 0.25, "row": 0, "col": 1 },
         { "label":    "E", "x":   2, "y": 0, "row": 0, "col": 2 },
-        { "label":    "R", "x":   3, "y": 0, "row": 0, "col": 3 },
-        { "label":    "T", "x":   4, "y": 0, "row": 0, "col": 4 },
-        { "label":    "Y", "x": 5.5, "y": 0, "row": 0, "col": 5 },
-        { "label":    "U", "x": 6.5, "y": 0, "row": 0, "col": 6 },
+        { "label":    "R", "x":   3, "y": 0.25, "row": 0, "col": 3 },
+        { "label":    "T", "x":   4, "y": 0.5, "row": 0, "col": 4 },
+        { "label":    "Y", "x": 5.5, "y": 0.5, "row": 0, "col": 5 },
+        { "label":    "U", "x": 6.5, "y": 0.25, "row": 0, "col": 6 },
         { "label":    "I", "x": 7.5, "y": 0, "row": 0, "col": 7 },
-        { "label":    "O", "x": 8.5, "y": 0, "row": 0, "col": 8 },
-        { "label":    "P", "x": 9.5, "y": 0, "row": 0, "col": 9 },
+        { "label":    "O", "x": 8.5, "y": 0.25, "row": 0, "col": 8 },
+        { "label":    "P", "x": 9.5, "y": 0.5, "row": 0, "col": 9 },
 
         { "label":    "A", "x":   0, "y": 1, "row": 1, "col": 0 },
         { "label":    "S", "x":   1, "y": 1, "row": 1, "col": 1 },
