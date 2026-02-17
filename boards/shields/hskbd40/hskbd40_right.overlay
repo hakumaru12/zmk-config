@@ -1,0 +1,44 @@
+/*
+ * Copyright (c) 2025 HSKBD40
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "hskbd40.dtsi"
+
+/ {
+    kscan0: kscan {
+        compatible = "zmk,kscan-gpio-matrix";
+        wakeup-source;
+        diode-direction = "col2row";
+
+        /*
+         * 右側列ピン:
+         *   列1: P1.00        = pro_micro ピン8
+         *   列2: P0.24        = pro_micro ピン4
+         *   列3: P0.22 (AIN0) = pro_micro ピン5
+         *   列4: P0.20 (AIN5) = pro_micro ピン6
+         *   列5: P0.17        = pro_micro ピン7
+         */
+        col-gpios
+            = <&pro_micro  8 GPIO_ACTIVE_HIGH>
+            , <&pro_micro  4 GPIO_ACTIVE_HIGH>
+            , <&pro_micro  5 GPIO_ACTIVE_HIGH>
+            , <&pro_micro  6 GPIO_ACTIVE_HIGH>
+            , <&pro_micro  7 GPIO_ACTIVE_HIGH>
+            ;
+
+        /*
+         * 右側行ピン:
+         *   行1: P1.13 = pro_micro ピン9
+         *   行2: P1.15 = pro_micro ピン10
+         *   行3: P0.02 = pro_micro ピン16
+         *   行4: P0.29 = pro_micro ピン14
+         */
+        row-gpios
+            = <&pro_micro  9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            ;
+    };
+};
