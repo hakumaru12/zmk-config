@@ -62,5 +62,14 @@
 &kp LCTRL  &kp LEFT_GUI  &kp GRAVE  &kp LSHFT  &kp TAB  &kp ENTER  &kp SPACE  &kp BSPC   &kp RIGHT_ALT  &to 0
             >;
         };
+
+        layer_3 {
+            bindings = <
+&kp Q      &kp W     &kp E     &kp R      &kp T    &kp N1     &kp N2     &kp N3    &kp N4     &kp N5
+&kp A      &kp S     &kp D     &kp F      &kp G    &trans     &trans     &kp UP    &trans     &trans
+&kp Z      &kp X     &kp C     &kp V      &kp B    &trans     &kp LEFT   &kp DOWN  &kp RIGHT  &trans
+&kp LCTRL  &kp LGUI  &kp LALT  &kp LSHFT  &kp DEL  &kp ENTER  &kp SPACE  &kp BSPC  &trans     &trans
+            >;
+        };
     };
 };
